@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>cv</title>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="wide-section" id="profile">
+        <img class="avatar" src="./assets/img/avatar.jpg" alt="my avatar">
+        <h1 class="section-title">Yury Hushcha</h1>
+        <p class="less-top-margin">Web developer</p>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Programming always attracted me.
+            So I began to self-study in this field.
+            My current aim is to get solid skills in frontend.
+        </p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+            <li><span class="contact-type">E-mail:</span>yhu06351@gmail.com</li>
+            <li><span class="contact-type">Telegram:</span>@reliable99</li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>PHP</li>
+            <li>Yii2</li>
+          </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        Here's "kyu" task's solution from Codewars as an example of my code:
+        <pre>
+          <code class="code-example">
+function multiply(a, b){
+    return a * b
+}
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul>
+              <li><a href="https://YuryHu.github.io/rsschool-cv/">My CV</a></li>
+          </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <p>I have B1 level of English.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        <time>2023</time>
+        <a class="nav-link" href="https://YuryHu.github.io/rsschool-cv/">YuryHu</a>
+      </div>
+      <div>
+        <a href="https://rs.school/js/">
+          <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool picture">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
