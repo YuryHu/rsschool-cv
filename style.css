@@ -75,7 +75,6 @@ body {
 }
 .less-top-margin {
     margin-top: -10px;
-   
 }
 @media (max-width: 768px) {
     .section {
@@ -100,5 +99,5 @@ body {
     font-weight: 600;
 }
 .footer-container img {
-    width: 20px;
+    width: 50px;
 }
